@@ -1,0 +1,21 @@
+#ifndef VECTOR_H
+#define VECTOR_H
+#include <QString>
+#include <vector>
+class vector
+{
+public:
+    vector<QString> Guardardatos;
+    QString Nombre;
+    int Edad;
+    double puntaje;
+    QString Materia;
+    QString Level;
+    QString tipocont;
+    
+    void SaveDate ();
+    
+    
+};
+
+#endif // VECTOR_H
